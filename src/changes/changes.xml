@@ -42,6 +42,9 @@ The <action> type attribute can be add,update,fix,remove.
     <author>Gary Gregory</author>
   </properties>
   <body>
+    <release version="1.9-TT.1" date="20 December 2013" description="Feature and fix release."> 
+      <action issue="CODEC-134" dev="tmousaw-ptc" type="fix">Reject any decode request for a value that is impossible to encode to for Base32/Base64 rather than blindly decoding.</action>      
+    </release>
     <release version="1.9" date="20 December 2013" description="Feature and fix release."> 
       <action dev="ggregory" type="updated" issue="CODEC-174" due-to="Thomas Champagne">Improve performance of Beider Morse encoder</action>   
       <action dev="ggregory" type="fix" issue="CODEC-175">Beider Morse does not close Scanners used to read config files</action>   
