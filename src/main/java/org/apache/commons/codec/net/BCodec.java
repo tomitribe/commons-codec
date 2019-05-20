@@ -181,6 +181,8 @@ public class BCodec extends RFC1522Codec implements StringEncoder, StringDecoder
             return this.decodeText(value);
         } catch (UnsupportedEncodingException e) {
             throw new DecoderException(e.getMessage(), e);
+        } catch (final IllegalArgumentException e) {
+            throw new DecoderException(e.getMessage(), e);
         }
     }
 

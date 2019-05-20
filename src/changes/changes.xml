@@ -42,14 +42,9 @@ The <action> type attribute can be add,update,fix,remove.
     <author>Gary Gregory</author>
   </properties>
   <body>
-    <!-- 
-    <release version="2.0" date="TBA" description="Feature and fix release."> 
-    <action dev="ggregory" type="fix" issue="CODEC-126"> Make org.apache.commons.codec.net.URLCodec charset field final. </action>   
-      <action dev="ggregory" type="fix" issue="CODEC-121" due-to="tn">
-        QuotedPrintableCodec does not support soft line break per the 'quoted-printable' example on Wikipedia
-      </action>      
+    <release version="1.9-TT.1" date="20 December 2013" description="Feature and fix release."> 
+      <action issue="CODEC-134" dev="tmousaw-ptc" type="fix">Reject any decode request for a value that is impossible to encode to for Base32/Base64 rather than blindly decoding.</action>      
     </release>
-    -->
     <release version="1.7" date="11 September 2012" description="
 Feature and fix release.
    Commons Codec 1.7 requires a minimum of Java 1.6">
