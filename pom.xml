@@ -29,7 +29,7 @@ limitations under the License.
   <groupId>commons-codec</groupId>
   <artifactId>commons-codec</artifactId>
   <!-- Remember to update the version in default.properties as well -->
-  <version>1.9-TT.1-SNAPSHOT</version>
+  <version>1.9-TT.1</version>
   <name>Apache Commons Codec</name>
   <inceptionYear>2002</inceptionYear>
   <description>
@@ -47,7 +47,7 @@ limitations under the License.
     <connection>scm:git:git@github.com:tomitribe/commons-codec.git</connection>
     <developerConnection>scm:git:git@github.com:tomitribe/commons-codec.git</developerConnection>
     <url>scm:git:git@github.com:tomitribe/commons-codec.git</url>
-    <tag>HEAD</tag>
+    <tag>commons-codec-1.9-TT.1</tag>
   </scm>
   <distributionManagement>
     <repository>
