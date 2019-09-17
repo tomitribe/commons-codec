@@ -24,7 +24,7 @@ limitations under the License.
   <modelVersion>4.0.0</modelVersion>
   <groupId>commons-codec</groupId>
   <artifactId>commons-codec</artifactId>
-  <version>1.7-TT.1</version>
+  <version>1.7-TT.2-SNAPSHOT</version>
   <name>Commons Codec</name>
   <inceptionYear>2002</inceptionYear>
   <description>
@@ -42,7 +42,7 @@ limitations under the License.
     <connection>scm:git:git@github.com:tomitribe/commons-codec.git</connection>
     <developerConnection>scm:git:git@github.com:tomitribe/commons-codec.git</developerConnection>
     <url>scm:git:git@github.com:tomitribe/commons-codec.git</url>
-    <tag>commons-codec-1.7-TT.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
