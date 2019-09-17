@@ -30,7 +30,7 @@ limitations under the License.
   <groupId>commons-codec</groupId>
   <artifactId>commons-codec</artifactId>
   <!-- Remember to update the version in default.properties as well -->
-  <version>1.9</version>
+  <version>1.9-TT.1-SNAPSHOT</version>
   <name>Apache Commons Codec</name>
   <inceptionYear>2002</inceptionYear>
   <description>
@@ -45,11 +45,23 @@ limitations under the License.
     <url>http://issues.apache.org/jira/browse/CODEC</url>
   </issueManagement>
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/commons/proper/codec/trunk</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/commons/proper/codec/trunk</developerConnection>
-    <url>http://svn.apache.org/viewvc/commons/proper/codec/trunk</url>
+    <connection>scm:git:git@github.com:tomitribe/commons-codec.git</connection>
+    <developerConnection>scm:git:git@github.com:tomitribe/commons-codec.git</developerConnection>
+    <url>scm:git:git@github.com:tomitribe/commons-codec.git</url>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
+    <repository>
+      <id>tomitribe.releases.https</id>
+      <name>Tomitribe Release Distribution Repository</name>
+      <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>tomitribe.snapshots.https</id>
+      <name>Tomitribe Development Snapshot Repository</name>
+      <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
+    </snapshotRepository>
     <site>
       <id>stagingSite</id>
       <name>Apache Staging Website</name>
