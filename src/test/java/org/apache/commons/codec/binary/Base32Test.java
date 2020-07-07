@@ -178,15 +178,6 @@ public class Base32Test {
         }
     }
 
-    @Test
-    public void testBase32SamplesNonDefaultPadding() throws Exception {
-        final Base32 codec = new Base32((byte)0x25); // '%' <=> 0x25
-
-        for (final String[] element : BASE32_PAD_TEST_CASES) {
-                assertEquals(element[1], codec.encodeAsString(element[0].getBytes(Charsets.UTF_8)));
-        }
-    }
-	
 	@Test
     public void testBase32ImpossibleSamples() {
         testImpossibleCases(new Base32(), BASE32_IMPOSSIBLE_CASES);
