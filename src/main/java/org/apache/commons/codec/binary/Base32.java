@@ -379,7 +379,7 @@ public class Base32 extends BaseNCodec {
      * @param inPos
      *            Position to start reading data from.
      * @param inAvail
-     *            Amount of bytes available from input for encoding.
+     *            Amount of bytes available from input for decoding.
      * @param context the context to be used
      */
     @Override
